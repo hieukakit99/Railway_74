@@ -10,7 +10,7 @@ with dainhat as (select * from account where DepartmentID=3)
 select * from dainhat where length(fullname)=(select max(length(fullname))from dainhat);
 -- quesition 6
 select GroupName from `group` where CreateDate <'2019-12-20';
--- question 7 không biết làm
+-- question 7 không biết làm ạ
 
 -- question 8
 select `code` from exam where Duration>=60 and CreateDate<2019-12-20;
