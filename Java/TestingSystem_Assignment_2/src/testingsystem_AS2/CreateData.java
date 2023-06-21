@@ -197,7 +197,37 @@ System.out.println("question5");
     	  }
       }
    // question 8   
-      
+ System.out.println("question 8");
+ Account [] allAccount = {account1, account2, account3};
+  for (Account account : allAccount)
+       System.out.println("id la:" + account.accountId
+    		              + "email" + account.email
+    		              + "full name:" + account.fullName
+    		              + "department name :" + account.department.departmentName
+    		             
+    		   );
+  // question 9
+  System.out.println("question9");
+  Department [] allDepartment = {department1, department2, department3};
+  for (Department department : allDepartment)
+	  System.out.println( "derpartment id" + department.departmentId
+			            + "department name :" + department.departmentName       
+			  );
+ // question 10
+  System.out.println("question10" );
+  Account [] account12 = {account1, account2};
+  for (int i = 0; i < account12.length ;i++)
+  {
+	  System.out.println("thong tin account so :" 
+			              + (i+1) +"la:"           
+			   );
+	  System.out.println("email:" + account12[i].email);
+	  System.out.println("full name :" + account12[i].fullName );
+	  System.out.println("department name:" + account12[i].department.departmentName);
+  } 
+	  
+	  
+	  
       
 }	                          
 }               
